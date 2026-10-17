@@ -39,6 +39,12 @@
 #define PI_INTEGRAL_MAX  10.0f
 #define PI_DUTY_MIN      0.05f
 #define PI_DUTY_MAX      0.95f
+/* 1: PA1 observation only; all PWM stays at zero, no 0x200 telemetry.
+ * 0: legacy potentiometer bench mode, NOT calibrated ACS758 control. */
+#ifndef ADC_RAW_TEST_MODE
+#define ADC_RAW_TEST_MODE 1U
+#endif
+#define ADC_TEST_VREF_MV  3300U
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -88,6 +94,62 @@ static void MX_TIM3_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+static void Report_PA1_Raw(void)
+{
+  uint32_t sum = 0U;
+  uint32_t minimum = 4095U;
+  uint32_t maximum = 0U;
+  uint32_t count = 0U;
+  uint32_t errors = 0U;
+
+  for (uint32_t i = 0U; i < ADC_AVG_SAMPLES; i++)
+  {
+    if (HAL_ADC_Start(&hadc1) != HAL_OK)
+    {
+      HAL_ADC_Stop(&hadc1);
+      errors++;
+      continue;
+    }
+    if (HAL_ADC_PollForConversion(&hadc1, 2U) != HAL_OK)
+    {
+      HAL_ADC_Stop(&hadc1);
+      errors++;
+      continue;
+    }
+    uint32_t raw = HAL_ADC_GetValue(&hadc1);
+    if (HAL_ADC_Stop(&hadc1) != HAL_OK)
+    {
+      errors++;
+      continue;
+    }
+    sum += raw;
+    if (raw < minimum) minimum = raw;
+    if (raw > maximum) maximum = raw;
+    count++;
+  }
+
+  if (count == 0U)
+  {
+    snprintf(msg, sizeof(msg), "PA1 ADC_ERROR n=0 err=%lu safe=%u fault=%u\r\n",
+             (unsigned long)errors, (unsigned int)safe_mode,
+             (unsigned int)fault_code);
+  }
+  else
+  {
+    uint32_t average = (sum + count / 2U) / count;
+    uint32_t denominator = count * 4095U;
+    uint32_t millivolts = (sum * ADC_TEST_VREF_MV + denominator / 2U)
+                         / denominator;
+    snprintf(msg, sizeof(msg),
+             "PA1 avg=%lu min=%lu max=%lu mV=%lu n=%lu err=%lu safe=%u fault=%u\r\n",
+             (unsigned long)average, (unsigned long)minimum,
+             (unsigned long)maximum, (unsigned long)millivolts,
+             (unsigned long)count, (unsigned long)errors,
+             (unsigned int)safe_mode, (unsigned int)fault_code);
+  }
+  HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+}
 
 static void Read_Adc_Feedback(void)
 {
@@ -268,6 +330,11 @@ int main(void)
   __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
   __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3, 0);
   __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4, 0);
+  if (ADC_RAW_TEST_MODE != 0U)
+  {
+    strcpy(msg, "ADC RAW TEST: PA1 only, Vref=3300mV assumed, PWM=OFF, 0x200=OFF\r\n");
+    HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+  }
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -346,8 +413,11 @@ int main(void)
 	 	         ccr_fc = ((uint32_t)p_fc * 1399U) / 150U;
 
 	 	         /* CH2=燃料电池，CH3=电池 */
-	 	         __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,ccr_fc);
-	 	         __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3, ccr_batt);
+                 if (ADC_RAW_TEST_MODE == 0U)
+                 {
+                   __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,ccr_fc);
+                   __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3, ccr_batt);
+                 }
 
 	 	          snprintf(msg,
 	 	                   sizeof(msg),
@@ -406,7 +476,10 @@ int main(void)
 
 	 	        /* CH1=光伏，由单路PI控制；CH4=风电，暂时保持开环 */
 	 	        pv_power_w = p_pv;
-	 	        __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,((uint32_t)p_wind * 1399U) / 200U);
+                if (ADC_RAW_TEST_MODE == 0U)
+                {
+                  __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,((uint32_t)p_wind * 1399U) / 200U);
+                }
 
 	 	          snprintf(msg,
 	 	                   sizeof(msg),
@@ -449,13 +522,22 @@ int main(void)
 	 	}
 
 	 	/* 每约1ms运行一次单路PI：PA1反馈，PA6输出 */
-	 	Update_Single_Channel_PI();
+        if (ADC_RAW_TEST_MODE == 0U)
+        {
+          Update_Single_Channel_PI();
+        }
 
 	 	// 0x200发送代码
 	 	if ((now - last_200_tick) >= 250U)
 	 	{
 	 		last_200_tick = now;
 
+            if (ADC_RAW_TEST_MODE != 0U)
+            {
+              Report_PA1_Raw();
+            }
+            else
+            {
 	 		uint32_t vbus_sum = 0;
 	 		uint32_t ibus_sum = 0;
 	 		uint32_t vbus_raw;
@@ -570,6 +652,7 @@ int main(void)
 	 	                         feedbackData,
 	 	                         &feedbackMailbox);
 	 	  }
+            }
 	 	}
 	 	  // 原来的心跳超时检测
 	 	 if ((HAL_GetTick() - last_heartbeat_tick > 1000U) &&
@@ -700,6 +783,24 @@ static void MX_ADC1_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN ADC1_Init 2 */
+
+  if (ADC_RAW_TEST_MODE != 0U)
+  {
+    /* A single rank avoids scan-register overwrite during polling.
+     * Keep the CubeMX dual-channel setup above for the legacy bench mode. */
+    hadc1.Init.ScanConvMode = DISABLE;
+    hadc1.Init.NbrOfConversion = 1;
+    if (HAL_ADC_Init(&hadc1) != HAL_OK)
+    {
+      Error_Handler();
+    }
+    sConfig.Channel = ADC_CHANNEL_1;
+    sConfig.Rank = 1;
+    if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+    {
+      Error_Handler();
+    }
+  }
 
   /* USER CODE END ADC1_Init 2 */
 
