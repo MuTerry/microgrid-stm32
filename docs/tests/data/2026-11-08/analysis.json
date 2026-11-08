@@ -1,0 +1,364 @@
+{
+  "selection": "manual interior plateaus; no timestamp alignment",
+  "files": {
+    "pa1-adc-2026-11-08.txt": {
+      "bytes": 105138,
+      "sha256": "e8fcbe5065843556c8693c34cde47cdec4db0daf101cbc8bf571035e9d5e4304",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [],
+      "unparsed_fragments": [],
+      "within_report_peak_to_peak_counts": {
+        "count": 1593,
+        "min": 21,
+        "mean": 38.50847457627118,
+        "max": 90
+      },
+      "all": {
+        "count": 1593,
+        "min": 1551,
+        "mean": 1558.850596359071,
+        "max": 1566
+      },
+      "windows": []
+    },
+    "pa1-dmm-2026-11-08.csv": {
+      "bytes": 15454,
+      "sha256": "cfee50c17af55a07a16f492df106b0a1858803d1997d0043033f4748d7d17d1c",
+      "time_first": "2026-11-08 16:12:55",
+      "time_last": "2026-11-08 16:19:32",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 398,
+        "min": 1.2429,
+        "mean": 1.2431798994974874,
+        "max": 1.2437
+      },
+      "windows": []
+    },
+    "reverse.csv": {
+      "bytes": 8824,
+      "sha256": "76f8546cb70fa93158845c2c93b95fc2937c63d3185ecc8e4148ea9fb1eba891",
+      "time_first": "2026-11-08 16:34:20",
+      "time_last": "2026-11-08 16:38:07",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 228,
+        "min": 1.1653,
+        "mean": 1.179667105263158,
+        "max": 1.2044
+      },
+      "windows": [
+        {
+          "first": 41,
+          "last": 70,
+          "count": 30,
+          "min": 1.1711,
+          "mean": 1.1713966666666666,
+          "max": 1.1718,
+          "time_first": "2026-11-08 16:35:00",
+          "time_last": "2026-11-08 16:35:29"
+        },
+        {
+          "first": 111,
+          "last": 140,
+          "count": 30,
+          "min": 1.1792,
+          "mean": 1.1793266666666666,
+          "max": 1.1794,
+          "time_first": "2026-11-08 16:36:10",
+          "time_last": "2026-11-08 16:36:39"
+        },
+        {
+          "first": 181,
+          "last": 210,
+          "count": 30,
+          "min": 1.1884,
+          "mean": 1.1889366666666668,
+          "max": 1.1894,
+          "time_first": "2026-11-08 16:37:20",
+          "time_last": "2026-11-08 16:37:49"
+        }
+      ]
+    },
+    "reverse.txt": {
+      "bytes": 70831,
+      "sha256": "39f12b8e0578c20218624881573d0ed28149a434d55aa89c23c4f5516e8a6548",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [
+        1
+      ],
+      "unparsed_fragments": [
+        {
+          "line": 1,
+          "text": "PA1 avg=1565"
+        }
+      ],
+      "within_report_peak_to_peak_counts": {
+        "count": 1073,
+        "min": 26,
+        "mean": 48.31220876048462,
+        "max": 108
+      },
+      "all": {
+        "count": 1073,
+        "min": 1487,
+        "mean": 1518.2525629077354,
+        "max": 1558
+      },
+      "windows": [
+        {
+          "first": 121,
+          "last": 240,
+          "count": 120,
+          "min": 1500,
+          "mean": 1507.3916666666667,
+          "max": 1513
+        },
+        {
+          "first": 521,
+          "last": 640,
+          "count": 120,
+          "min": 1510,
+          "mean": 1518.2666666666667,
+          "max": 1525
+        },
+        {
+          "first": 881,
+          "last": 1000,
+          "count": 120,
+          "min": 1522,
+          "mean": 1530.1916666666666,
+          "max": 1539
+        }
+      ]
+    },
+    "vcc-cycle.csv": {
+      "bytes": 7576,
+      "sha256": "865b9a602d604910235989fe11c9bfd91212b1da306936502896ac107060425f",
+      "time_first": "2026-11-08 16:48:27",
+      "time_last": "2026-11-08 16:51:42",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 196,
+        "min": 4.957,
+        "mean": 4.958826530612245,
+        "max": 4.961
+      },
+      "windows": []
+    },
+    "vcc-cycle.txt": {
+      "bytes": 52419,
+      "sha256": "f89567b3f9bc48ce24ba371cb18cdc5a77c9773f6a56a9fbbe9152d4db26ffa6",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [
+        4
+      ],
+      "unparsed_fragments": [
+        {
+          "line": 4,
+          "text": "PA1 avg=5 min=0 max=19 mV=4 n=32 err=0 safe=1 fa"
+        }
+      ],
+      "within_report_peak_to_peak_counts": {
+        "count": 794,
+        "min": 14,
+        "mean": 29.404282115869016,
+        "max": 64
+      },
+      "all": {
+        "count": 794,
+        "min": 3,
+        "mean": 1559.992443324937,
+        "max": 1573
+      },
+      "windows": [
+        {
+          "first": 121,
+          "last": 240,
+          "count": 120,
+          "min": 1566,
+          "mean": 1568.6333333333334,
+          "max": 1572
+        },
+        {
+          "first": 361,
+          "last": 480,
+          "count": 120,
+          "min": 1554,
+          "mean": 1557.4083333333333,
+          "max": 1562
+        },
+        {
+          "first": 641,
+          "last": 760,
+          "count": 120,
+          "min": 1565,
+          "mean": 1568.8666666666666,
+          "max": 1572
+        }
+      ]
+    },
+    "pa1-cycle.csv": {
+      "bytes": 7420,
+      "sha256": "12412681153e7a820be4ef76dafc1eefc67cac572b1fd37c5b38e86892fcbc5e",
+      "time_first": "2026-11-08 16:56:37",
+      "time_last": "2026-11-08 16:59:48",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 192,
+        "min": 1.2291,
+        "mean": 1.2354458333333334,
+        "max": 1.2388
+      },
+      "windows": [
+        {
+          "first": 31,
+          "last": 60,
+          "count": 30,
+          "min": 1.2382,
+          "mean": 1.23826,
+          "max": 1.2384,
+          "time_first": "2026-11-08 16:57:07",
+          "time_last": "2026-11-08 16:57:36"
+        },
+        {
+          "first": 91,
+          "last": 120,
+          "count": 30,
+          "min": 1.2291,
+          "mean": 1.2292466666666668,
+          "max": 1.2293,
+          "time_first": "2026-11-08 16:58:07",
+          "time_last": "2026-11-08 16:58:36"
+        },
+        {
+          "first": 141,
+          "last": 170,
+          "count": 30,
+          "min": 1.2383,
+          "mean": 1.23835,
+          "max": 1.2384,
+          "time_first": "2026-11-08 16:58:57",
+          "time_last": "2026-11-08 16:59:26"
+        }
+      ]
+    },
+    "pa1-cycle.txt": {
+      "bytes": 52086,
+      "sha256": "28d7b3e24b348b4bf5421d5b23e47ccb2eadba0dda48bcf6652649ed504eb32f",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [
+        1
+      ],
+      "unparsed_fragments": [
+        {
+          "line": 1,
+          "text": "PA1 avg=156x"
+        }
+      ],
+      "within_report_peak_to_peak_counts": {
+        "count": 789,
+        "min": 32,
+        "mean": 52.80735107731306,
+        "max": 108
+      },
+      "all": {
+        "count": 789,
+        "min": 1545,
+        "mean": 1563.851711026616,
+        "max": 1578
+      },
+      "windows": [
+        {
+          "first": 121,
+          "last": 240,
+          "count": 120,
+          "min": 1559,
+          "mean": 1567.7083333333333,
+          "max": 1577
+        },
+        {
+          "first": 341,
+          "last": 460,
+          "count": 120,
+          "min": 1546,
+          "mean": 1555.8333333333333,
+          "max": 1564
+        },
+        {
+          "first": 601,
+          "last": 720,
+          "count": 120,
+          "min": 1556,
+          "mean": 1567.5916666666667,
+          "max": 1575
+        }
+      ]
+    }
+  },
+  "pa1_cycle_comparison": {
+    "assumed_vref_V": 3.278,
+    "reported_current_A": -0.479,
+    "dmm_delta_mV": -9.058333333333168,
+    "adc_delta_counts": -11.816666666666833,
+    "adc_estimated_delta_mV": -9.459104599104732,
+    "delta_difference_mV": -0.4007712657715639,
+    "dmm_return_shift_mV": 0.09000000000014552,
+    "adc_return_shift_counts": -0.11666666666656056,
+    "dmm_coarse_sensitivity_mV_per_A": 18.91092553931768,
+    "adc_coarse_sensitivity_mV_per_A": 19.747608766398187,
+    "estimated_adc_minus_dmm_mV": [
+      16.67233618233621,
+      16.179869759869625,
+      16.48894586894589
+    ]
+  }
+}

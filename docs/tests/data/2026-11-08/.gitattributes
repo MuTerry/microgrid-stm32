@@ -1,0 +1,3 @@
+# Preserve original logger exports byte-for-byte across Git checkouts.
+*.csv -text whitespace=cr-at-eol
+*.txt -text whitespace=cr-at-eol
