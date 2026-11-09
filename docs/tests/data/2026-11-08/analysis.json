@@ -342,6 +342,193 @@
           "max": 1575
         }
       ]
+    },
+    "pa1-ground.txt": {
+      "bytes": 8373,
+      "sha256": "ee60c237447187d617b915076cd9fb3b27d548eaeb9e1e2af0e9fda26ea1bf56",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [],
+      "unparsed_fragments": [],
+      "within_report_peak_to_peak_counts": {
+        "count": 155,
+        "min": 3,
+        "mean": 5.025806451612903,
+        "max": 13
+      },
+      "all": {
+        "count": 155,
+        "min": 1,
+        "mean": 1.3290322580645162,
+        "max": 2
+      },
+      "windows": []
+    },
+    "pa1-mid.csv": {
+      "bytes": 2349,
+      "sha256": "e045e77f3054d60352a69bd40c4f7310a753a265e7f2ae2b0f5eea318c93f7db",
+      "time_first": "2026-11-08 17:57:49",
+      "time_last": "2026-11-08 17:58:49",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 61,
+        "min": 1.6472,
+        "mean": 1.6472901639344262,
+        "max": 1.6473
+      },
+      "windows": []
+    },
+    "pa1-mid.txt": {
+      "bytes": 18546,
+      "sha256": "ddf99c62dde84a853fcca4c30a8847aed191c829613b5214979c3c7849d669df",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [],
+      "unparsed_fragments": [],
+      "within_report_peak_to_peak_counts": {
+        "count": 281,
+        "min": 26,
+        "mean": 45.829181494661924,
+        "max": 88
+      },
+      "all": {
+        "count": 281,
+        "min": 2036,
+        "mean": 2046.0604982206405,
+        "max": 2055
+      },
+      "windows": []
+    },
+    "pa1-mid-probe-off.txt": {
+      "bytes": 14027,
+      "sha256": "8a5edf2ced6de978d604656ac35c15ad092e470a5a97860e58bc0ffa2cc74e28",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [
+        2
+      ],
+      "unparsed_fragments": [
+        {
+          "line": 2,
+          "text": "PA1 avg=2046 min=2021 max=2067 mV=1"
+        }
+      ],
+      "within_report_peak_to_peak_counts": {
+        "count": 212,
+        "min": 31,
+        "mean": 50.85849056603774,
+        "max": 84
+      },
+      "all": {
+        "count": 212,
+        "min": 2042,
+        "mean": 2047.6650943396226,
+        "max": 2054
+      },
+      "windows": []
+    },
+    "pa1-mid-probe-on.txt": {
+      "bytes": 13376,
+      "sha256": "ac1b0b50d338762c4f96c99ca85329ec33b1c57ebac071cc51987a066c876414",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [
+        1
+      ],
+      "unparsed_fragments": [
+        {
+          "line": 1,
+          "text": "PA1 avg=2048 min=2028 max=2066 mV=1650 n=32"
+        }
+      ],
+      "within_report_peak_to_peak_counts": {
+        "count": 202,
+        "min": 24,
+        "mean": 40.084158415841586,
+        "max": 80
+      },
+      "all": {
+        "count": 202,
+        "min": 2039,
+        "mean": 2045.9752475247524,
+        "max": 2053
+      },
+      "windows": []
+    },
+    "acs-zero-check.csv": {
+      "bytes": 2387,
+      "sha256": "05870f76c2c6a9c4d617ca58b1786545459a973e209c91bc7279507c5c3e7b92",
+      "time_first": "2026-11-08 18:18:28",
+      "time_last": "2026-11-08 18:19:29",
+      "function_units": [
+        [
+          "DCV",
+          "V"
+        ]
+      ],
+      "all": {
+        "count": 62,
+        "min": 1.2258,
+        "mean": 1.2260854838709676,
+        "max": 1.2263
+      },
+      "windows": []
+    },
+    "acs-zero-check.txt": {
+      "bytes": 18810,
+      "sha256": "ed58344a77ef7550bcb2cc657f2d3970dba34998851f7a18db59ffdfebcb317a",
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "nonmatching_line_numbers": [],
+      "unparsed_fragments": [],
+      "within_report_peak_to_peak_counts": {
+        "count": 285,
+        "min": 27,
+        "mean": 47.76140350877193,
+        "max": 108
+      },
+      "all": {
+        "count": 285,
+        "min": 1532,
+        "mean": 1540.459649122807,
+        "max": 1548
+      },
+      "windows": []
     }
   },
   "pa1_cycle_comparison": {
@@ -360,5 +547,40 @@
       16.179869759869625,
       16.48894586894589
     ]
+  },
+  "input_control_comparisons": {
+    "pa1-mid": [
+      {
+        "assumed_vref_V": 3.299,
+        "adc_estimated_V": 1.6483403134627332,
+        "adc_minus_dmm_mV": 1.050149528307065
+      },
+      {
+        "assumed_vref_V": 3.3,
+        "adc_estimated_V": 1.6488399619360472,
+        "adc_minus_dmm_mV": 1.5497980016210278
+      }
+    ],
+    "acs-zero-check": [
+      {
+        "assumed_vref_V": 3.285,
+        "adc_estimated_V": 1.2357533449007132,
+        "adc_minus_dmm_mV": 9.667861029745595
+      }
+    ]
+  },
+  "probe_report_order_comparisons": {
+    "pa1-mid.txt": {
+      "lag1_correlation": -0.6978211962526295,
+      "mean_absolute_adjacent_step_counts": 5.603571428571429
+    },
+    "pa1-mid-probe-off.txt": {
+      "lag1_correlation": -0.05677473382010582,
+      "mean_absolute_adjacent_step_counts": 2.6682464454976302
+    },
+    "pa1-mid-probe-on.txt": {
+      "lag1_correlation": -0.6599389388143012,
+      "mean_absolute_adjacent_step_counts": 4.517412935323383
+    }
   }
 }

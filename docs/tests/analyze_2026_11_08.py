@@ -11,6 +11,7 @@ import csv
 import hashlib
 import io
 import json
+import math
 from pathlib import Path
 import re
 from statistics import mean
@@ -33,6 +34,9 @@ FILES = (
     "pa1-adc-2026-11-08.txt", "pa1-dmm-2026-11-08.csv",
     "reverse.csv", "reverse.txt", "vcc-cycle.csv", "vcc-cycle.txt",
     "pa1-cycle.csv", "pa1-cycle.txt",
+    "pa1-ground.txt", "pa1-mid.csv", "pa1-mid.txt",
+    "pa1-mid-probe-off.txt", "pa1-mid-probe-on.txt",
+    "acs-zero-check.csv", "acs-zero-check.txt",
 )
 
 
@@ -44,6 +48,7 @@ def stats(values):
 def analyze():
     result = {"selection": "manual interior plateaus; no timestamp alignment",
               "files": {}}
+    adc_values = {}
     for name in FILES:
         raw = (DATA / name).read_bytes()
         text = raw.decode("utf-8-sig")
@@ -59,6 +64,7 @@ def analyze():
             rows = [dict(zip(FIELDS, map(int, match.groups())))
                     for match in REPORT.finditer(text)]
             values = [row["avg"] for row in rows]
+            adc_values[name] = values
             info["states_n_err_safe_fault"] = sorted(set(
                 tuple(row[key] for key in FIELDS[4:]) for row in rows))
             info["nonmatching_line_numbers"] = [
@@ -100,6 +106,27 @@ def analyze():
             (code * vref / 4095 - voltage) * 1000
             for voltage, code in zip(dmm, adc)],
     }
+    result["input_control_comparisons"] = {}
+    # User-reported rails bracket the recordings; no continuous VREF record.
+    for base, references in (("pa1-mid", [3.299, 3.300]),
+                             ("acs-zero-check", [3.285])):
+        dmm_mean = result["files"][base + ".csv"]["all"]["mean"]
+        adc_mean = result["files"][base + ".txt"]["all"]["mean"]
+        result["input_control_comparisons"][base] = [
+            {"assumed_vref_V": reference,
+             "adc_estimated_V": adc_mean * reference / 4095,
+             "adc_minus_dmm_mV": (adc_mean * reference / 4095 - dmm_mean) * 1000}
+            for reference in references]
+    result["probe_report_order_comparisons"] = {}
+    for name in ("pa1-mid.txt", "pa1-mid-probe-off.txt", "pa1-mid-probe-on.txt"):
+        a, b = adc_values[name][:-1], adc_values[name][1:]
+        ma, mb = mean(a), mean(b)
+        denominator = math.sqrt(sum((x-ma)**2 for x in a) * sum((y-mb)**2 for y in b))
+        result["probe_report_order_comparisons"][name] = {
+            "lag1_correlation": (sum((x-ma)*(y-mb) for x, y in zip(a, b))
+                                 / denominator if denominator else None),
+            "mean_absolute_adjacent_step_counts": mean(abs(y-x) for x, y in zip(a, b)),
+        }
     return result
 
 
