@@ -1,0 +1,470 @@
+{
+  "files": {
+    "1.txt": {
+      "sha256": "df824d417b067f584c89c3ab53f787c192a2f05d9ef4c433107b661ad1c14d28",
+      "bytes": 60852,
+      "PA1_reports": 922,
+      "PA1_min_max_avg_counts": [
+        1463,
+        1576
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-reverse-2026-11-19-run02.txt": {
+      "sha256": "7e390346ffcf3776229b744bd22e527ceba0448af2fec0a896af847f9045e634",
+      "bytes": 34054,
+      "PA1_reports": 516,
+      "PA1_min_max_avg_counts": [
+        1532,
+        1552
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-reverse-2026-11-19-run03.txt": {
+      "sha256": "b777837c7bcf7ac39c609897a9047ee345d4f5f942fcbe267b4c113e8a5d6910",
+      "bytes": 27918,
+      "PA1_reports": 423,
+      "PA1_min_max_avg_counts": [
+        1536,
+        1552
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-forward-2026-11-19-run04.txt": {
+      "sha256": "64b3cacbff367e2832cc90c40c73c24c6695dab0022c413a52ed8d39722c0d91",
+      "bytes": 32406,
+      "PA1_reports": 491,
+      "PA1_min_max_avg_counts": [
+        1545,
+        1568
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-forward-2026-11-19-run05.txt": {
+      "sha256": "e8c0c1abc42bbe32c4f219cf13b80db29733e21da68bef59445b9d256d70d02a",
+      "bytes": 41778,
+      "PA1_reports": 633,
+      "PA1_min_max_avg_counts": [
+        1563,
+        1580
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-forward-2026-11-21-run06.txt": {
+      "sha256": "e2697f49c37675057188677faecccf021d156e8f8da7356dc6162cbcc0b46938",
+      "bytes": 41919,
+      "PA1_reports": 635,
+      "PA1_min_max_avg_counts": [
+        1562,
+        1575
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-cal-reverse-2026-11-21-run07.txt": {
+      "sha256": "ab097465a05a810979588a2153b7d9a644d86edafe9222bf2df766e72d31cc23",
+      "bytes": 49236,
+      "PA1_reports": 746,
+      "PA1_min_max_avg_counts": [
+        1548,
+        1565
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 0,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": []
+    },
+    "pa1-current-check-reverse-2026-11-21-run08.txt": {
+      "sha256": "e44261052196f3e1ae3ffe450485f16f6517ba93074b78db1e24545e0e7a9400",
+      "bytes": 30962,
+      "PA1_reports": 385,
+      "PA1_min_max_avg_counts": [
+        1546,
+        1564
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 325,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": [
+        1558.831,
+        1552.298,
+        1558.134
+      ]
+    },
+    "pa1-current-check-reverse-2026-11-21-run09.txt": {
+      "sha256": "4964776e771d41643db9c6c4d9c3400c565d62e139789208de034ac258d4034c",
+      "bytes": 34942,
+      "PA1_reports": 427,
+      "PA1_min_max_avg_counts": [
+        1548,
+        1563
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 407,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": [
+        1557.67
+      ]
+    },
+    "pa1-current-check-reverse-2026-11-21-run10.txt": {
+      "sha256": "a4452d7116b233b101c404bae8afc2a75ae5c5c81062181ea570b9a8e5095686",
+      "bytes": 20631,
+      "PA1_reports": 256,
+      "PA1_min_max_avg_counts": [
+        1549,
+        1568
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 221,
+      "CURRENT_AVG_reports": 0,
+      "ZERO_OK_counts": [
+        1560.041
+      ]
+    },
+    "pa1-current-check-reverse-2026-11-21-run11.txt": {
+      "sha256": "85b326985ae61a68353eda68c6ad5016eac11b1a8564d2ef7769d66b49e235f2",
+      "bytes": 23005,
+      "PA1_reports": 236,
+      "PA1_min_max_avg_counts": [
+        1550,
+        1565
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 185,
+      "CURRENT_AVG_reports": 175,
+      "ZERO_OK_counts": [
+        1560.12
+      ]
+    },
+    "pa1-current-check-reverse-2026-11-21-run12.txt": {
+      "sha256": "3328bd90b0416607fbe5b3fac99c0c9d94773d203a717685328ffa6af6438aa6",
+      "bytes": 49680,
+      "PA1_reports": 471,
+      "PA1_min_max_avg_counts": [
+        1564,
+        1591
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 451,
+      "CURRENT_AVG_reports": 444,
+      "ZERO_OK_counts": [
+        1583.659
+      ]
+    },
+    "pa1-zero-hold-after-off-2026-11-21-run13.txt": {
+      "sha256": "56035d318d137d69b693db04f584a428bfbc65458ba369f899c16ab578bf002f",
+      "bytes": 19591,
+      "PA1_reports": 181,
+      "PA1_min_max_avg_counts": [
+        1572,
+        1583
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 181,
+      "CURRENT_AVG_reports": 181,
+      "ZERO_OK_counts": []
+    },
+    "pa1-current-no-probes-2026-11-21-run14.txt": {
+      "sha256": "3b6e6e7af65e7acbf5ce7e8b39c6ee32eb17d1af5b6fffb0c2e285e04598cf45",
+      "bytes": 47563,
+      "PA1_reports": 453,
+      "PA1_min_max_avg_counts": [
+        1563,
+        1586
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 433,
+      "CURRENT_AVG_reports": 426,
+      "ZERO_OK_counts": [
+        1579.464
+      ]
+    },
+    "15.txt": {
+      "sha256": "c184fc9215fdb85d418fff2d4fdefbcb566ccba5f1e185fb4ca0cbc542bdce02",
+      "bytes": 25852,
+      "PA1_reports": 252,
+      "PA1_min_max_avg_counts": [
+        1572,
+        1586
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 232,
+      "CURRENT_AVG_reports": 225,
+      "ZERO_OK_counts": [
+        1580.133
+      ]
+    },
+    "pa1-zero-hold-2026-11-21-run16.txt": {
+      "sha256": "7633d8fe4ac8d402b20e2543ae179e903bffb577477526a599416970721342f9",
+      "bytes": 29581,
+      "PA1_reports": 279,
+      "PA1_min_max_avg_counts": [
+        1574,
+        1587
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 279,
+      "CURRENT_AVG_reports": 279,
+      "ZERO_OK_counts": []
+    },
+    "pa1-current-series-reverse-2026-11-21-run17.txt": {
+      "sha256": "c470f5877fcaeca7dc252a633545be7f25393f4b99105e05c0762a4898b6befd",
+      "bytes": 41935,
+      "PA1_reports": 403,
+      "PA1_min_max_avg_counts": [
+        1564,
+        1578
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 384,
+      "CURRENT_AVG_reports": 376,
+      "ZERO_OK_counts": [
+        1571.264
+      ]
+    },
+    "pa1-current-series-reverse-2026-11-21-run18.txt": {
+      "sha256": "c310f93be85f8096065f8bf02e997becae601dda04e2024653d9a2d370c47234",
+      "bytes": 30549,
+      "PA1_reports": 305,
+      "PA1_min_max_avg_counts": [
+        1565,
+        1577
+      ],
+      "states_n_err_safe_fault": [
+        [
+          32,
+          0,
+          1,
+          5
+        ]
+      ],
+      "CURRENT_reports": 265,
+      "CURRENT_AVG_reports": 251,
+      "ZERO_OK_counts": [
+        1571.127,
+        1570.522
+      ]
+    }
+  },
+  "run09_CURRENT_mA": [
+    {
+      "first": 31,
+      "last": 135,
+      "mean": -5.59047619047619,
+      "sample_stdev": 78.02978908947522
+    },
+    {
+      "first": 151,
+      "last": 270,
+      "mean": -238.20833333333334,
+      "sample_stdev": 93.88450761604986
+    },
+    {
+      "first": 291,
+      "last": 405,
+      "mean": 2.6,
+      "sample_stdev": 90.65664934341793
+    }
+  ],
+  "run11_after_zero": {
+    "CURRENT_reports": 182,
+    "first_average_at_CURRENT_report": 8,
+    "exact_filter_matches": 175,
+    "CURRENT_mA": [
+      {
+        "first": 15,
+        "last": 40,
+        "mean": 4,
+        "sample_stdev": 70.24870105560672
+      },
+      {
+        "first": 72,
+        "last": 107,
+        "mean": -245.05555555555554,
+        "sample_stdev": 101.78013964127199
+      },
+      {
+        "first": 136,
+        "last": 170,
+        "mean": -3.0285714285714285,
+        "sample_stdev": 106.52436498817748
+      }
+    ],
+    "CURRENT_AVG_mA": [
+      {
+        "first": 8,
+        "last": 33,
+        "mean": -1.9230769230769231,
+        "sample_stdev": 17.816673262813296
+      },
+      {
+        "first": 65,
+        "last": 100,
+        "mean": -240.77777777777777,
+        "sample_stdev": 28.47666825526882
+      },
+      {
+        "first": 129,
+        "last": 163,
+        "mean": -11.371428571428572,
+        "sample_stdev": 31.376354636128475
+      }
+    ]
+  },
+  "run16_CURRENT_AVG_mA": [
+    {
+      "first": 1,
+      "last": 279,
+      "mean": -12.577060931899641,
+      "sample_stdev": 37.332459943479826
+    },
+    {
+      "first": 1,
+      "last": 60,
+      "mean": 10.266666666666667,
+      "sample_stdev": 21.695009710246353
+    },
+    {
+      "first": 220,
+      "last": 279,
+      "mean": 11.516666666666667,
+      "sample_stdev": 37.04806391092553
+    }
+  ]
+}

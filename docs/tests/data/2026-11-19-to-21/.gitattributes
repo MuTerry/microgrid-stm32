@@ -1,0 +1,2 @@
+# Preserve the serial exports byte-for-byte.
+*.txt -text whitespace=cr-at-eol

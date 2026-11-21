@@ -1,0 +1,836 @@
+PA1 avg=1555 min=1537 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-122
+PA1 avg=1557 min=1528 max=1579 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-45
+PA1 avg=1555 minPA1 avg=1557 min=1537 max=1573 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-42
+PA1 avg=1557 min=1536 max=1586 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-33
+PA1 avg=1557 min=1538 max=1580 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-46
+PA1 avg=1558 min=1532 max=1590 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-14
+PA1 avg=1559 min=1542 max=1573 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+18
+PA1 avg=1560 min=1524 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+77
+PA1 avg=1559 min=1540 max=1579 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+29
+PA1 avg=1560 min=1536 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+85
+PA1 avg=1557 min=1536 max=1585 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-39
+PA1 avg=1559 min=1542 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+47
+PA1 avg=1557 min=1538 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-58
+PA1 avg=1557 min=1540 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-41
+PA1 avg=1558 min=1530 max=1577 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=-6
+PA1 avg=1559 min=1536 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+17
+PA1 avg=1555 min=1529 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-118
+PA1 avg=1561 min=1531 max=1580 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+105
+PA1 avg=1560 min=1536 max=1577 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+63
+ZERO START groups=20 keep load OFF
+PA1 avg=1558 min=1537 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1555 min=1532 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+PA1 avg=1557 min=1539 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1558 min=1532 max=1580 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1558 min=1537 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+PA1 avg=1555 min=1536 max=1586 mV=1253 n=32 err=0 safe=1 fault=5
+PA1 avg=1559 min=1540 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+PA1 avg=1557 min=1544 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1558 min=1528 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+PA1 avg=1554 min=1517 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+PA1 avg=1562 min=1532 max=1592 mV=1259 n=32 err=0 safe=1 fault=5
+PA1 avg=1561 min=1532 max=1597 mV=1258 n=32 err=0 safe=1 fault=5
+PA1 avg=1555 min=1536 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+PA1 avg=1558 min=1537 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1556 min=1537 max=1576 mV=1254 n=32 err=0 safe=1 fault=5
+PA1 avg=1560 min=1540 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+PA1 avg=1557 min=1526 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1557 min=1529 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1557 min=1533 max=1580 mV=1255 n=32 err=0 safe=1 fault=5
+PA1 avg=1560 min=1536 max=1576 mV=1257 n=32 err=0 safe=1 fault=5
+ZERO OK avg=1557.670 groups=20
+PA1 avg=1559 min=1543 max=1572 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+74
+PA1 avg=1556 min=1530 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-53
+PA1 avg=1557 min=1536 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-19
+PA1 avg=1561 min=1536 max=1584 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+143
+PA1 avg=1555 min=1540 max=1575 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-108
+PA1 avg=1559 min=1532 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+66
+PA1 avg=1555 min=1534 max=1574 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-132
+PA1 avg=1559 min=1536 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+36
+PA1 avg=1555 min=1536 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-131
+PA1 avg=1558 min=1522 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+20
+PA1 avg=1556 min=1536 max=1582 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-74
+PA1 avg=1559 min=1536 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+64
+PA1 avg=1557 min=1538 max=1574 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1557 min=1538 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-29
+PA1 avg=1559 min=1537 max=1581 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+45
+PA1 avg=1556 min=1536 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-60
+PA1 avg=1560 min=1540 max=1598 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+119
+PA1 avg=1558 min=1537 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+28
+PA1 avg=1555 min=1526 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-97
+PA1 avg=1559 min=1532 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+57
+PA1 avg=1558 min=1536 max=1582 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+18
+PA1 avg=1556 min=1538 max=1581 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-78
+PA1 avg=1558 min=1540 max=1585 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+13
+PA1 avg=1556 min=1530 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-68
+PA1 avg=1558 min=1530 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+34
+PA1 avg=1555 min=1531 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-100
+PA1 avg=1558 min=1536 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+30
+PA1 avg=1553 min=1516 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-200
+PA1 avg=1560 min=1540 max=1575 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+104
+PA1 avg=1559 min=1528 max=1581 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+37
+PA1 avg=1557 min=1538 max=1581 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-50
+PA1 avg=1556 min=1536 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-89
+PA1 avg=1559 min=1540 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+74
+PA1 avg=1558 min=1533 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+3
+PA1 avg=1555 min=1540 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-97
+PA1 avg=1555 min=1540 max=1586 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-124
+PA1 avg=1558 min=1541 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+28
+PA1 avg=1559 min=1532 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+48
+PA1 avg=1557 min=1532 max=1585 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-46
+PA1 avg=1559 min=1539 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+64
+PA1 avg=1560 min=1544 max=1573 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+100
+PA1 avg=1553 min=1536 max=1582 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-200
+PA1 avg=1557 min=1538 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-9
+PA1 avg=1557 min=1536 max=1588 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-26
+PA1 avg=1557 min=1540 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-11
+PA1 avg=1558 min=1546 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-5
+PA1 avg=1558 min=1536 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+21
+PA1 avg=1559 min=1536 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+41
+PA1 avg=1559 min=1529 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+65
+PA1 avg=1557 min=1531 max=1586 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-25
+PA1 avg=1559 min=1537 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+61
+PA1 avg=1558 min=1532 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+22
+PA1 avg=1557 min=1536 max=1574 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-30
+PA1 avg=1556 min=1536 max=1574 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-51
+PA1 avg=1555 min=1528 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-121
+PA1 avg=1561 min=1532 max=1586 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+132
+PA1 avg=1555 min=1532 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-120
+PA1 avg=1557 min=1539 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-38
+PA1 avg=1555 min=1544 max=1568 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-135
+PA1 avg=1558 min=1526 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+5
+PA1 avg=1557 min=1531 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-26
+PA1 avg=1559 min=1540 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+62
+PA1 avg=1558 min=1540 max=1585 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-1
+PA1 avg=1557 min=1539 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-41
+PA1 avg=1556 min=1536 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-51
+PA1 avg=1558 min=1540 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+22
+PA1 avg=1558 min=1539 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+33
+PA1 avg=1557 min=1529 max=1574 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-29
+PA1 avg=1558 min=1540 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-5
+PA1 avg=1560 min=1544 max=1587 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+90
+PA1 avg=1561 min=1542 max=1585 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+132
+PA1 avg=1556 min=1540 max=1576 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-77
+PA1 avg=1558 min=1540 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+1
+PA1 avg=1557 min=1528 max=1576 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-46
+PA1 avg=1559 min=1540 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+68
+PA1 avg=1556 min=1536 max=1579 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-85
+PA1 avg=1559 min=1536 max=1577 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+74
+PA1 avg=1556 min=1537 max=1573 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-54
+PA1 avg=1560 min=1539 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+99
+PA1 avg=1558 min=1536 max=1594 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+5
+PA1 avg=1555 min=1534 max=1573 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-112
+PA1 avg=1553 min=1516 max=1574 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-192
+PA1 avg=1560 min=1541 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+93
+PA1 avg=1555 min=1536 max=1586 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-98
+PA1 avg=1557 min=1536 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-14
+PA1 avg=1560 min=1540 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+101
+PA1 avg=1560 min=1536 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+101
+PA1 avg=1559 min=1540 max=1582 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+41
+PA1 avg=1560 min=1536 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+92
+PA1 avg=1560 min=1531 max=1585 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+85
+PA1 avg=1557 min=1537 max=1570 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-13
+PA1 avg=1554 min=1520 max=1584 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-179
+PA1 avg=1563 min=1537 max=1584 mV=1260 n=32 err=0 safe=1 fault=5
+CURRENT mA=+239
+PA1 avg=1556 min=1528 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-69
+PA1 avg=1557 min=1529 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-35
+PA1 avg=1559 min=1542 max=1581 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+53
+PA1 avg=1557 min=1522 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-47
+PA1 avg=1557 min=1529 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-9
+PA1 avg=1558 min=1536 max=1572 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+18
+PA1 avg=1557 min=1543 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-41
+PA1 avg=1558 min=1540 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+29
+PA1 avg=1557 min=1536 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-11
+PA1 avg=1557 min=1523 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-47
+PA1 avg=1556 min=1528 max=1572 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-61
+PA1 avg=1558 min=1536 max=1594 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-1
+PA1 avg=1560 min=1520 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+117
+PA1 avg=1558 min=1539 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-6
+PA1 avg=1557 min=1540 max=1573 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1560 min=1542 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+85
+PA1 avg=1558 min=1536 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-3
+PA1 avg=1558 min=1542 max=1572 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+33
+PA1 avg=1556 min=1530 max=1570 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-77
+PA1 avg=1555 min=1540 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-109
+PA1 avg=1557 min=1542 max=1574 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-50
+PA1 avg=1559 min=1529 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+41
+PA1 avg=1556 min=1528 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-82
+PA1 avg=1558 min=1538 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+17
+PA1 avg=1561 min=1544 max=1580 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+124
+PA1 avg=1558 min=1536 max=1577 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+22
+PA1 avg=1557 min=1537 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-23
+PA1 avg=1561 min=1536 max=1584 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+140
+PA1 avg=1558 min=1537 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+7
+PA1 avg=1556 min=1527 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-66
+PA1 avg=1558 min=1542 max=1585 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-7
+PA1 avg=1558 min=1542 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+20
+PA1 avg=1550 min=1529 max=1570 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-333
+PA1 avg=1554 min=1530 max=1580 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-163
+PA1 avg=1549 min=1524 max=1576 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-356
+PA1 avg=1551 min=1528 max=1573 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-266
+PA1 avg=1554 min=1530 max=1570 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-177
+PA1 avg=1553 min=1527 max=1578 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-208
+PA1 avg=1550 min=1509 max=1568 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-322
+PA1 avg=1550 min=1526 max=1582 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-339
+PA1 avg=1550 min=1530 max=1568 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-331
+PA1 avg=1552 min=1528 max=1570 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-224
+PA1 avg=1550 min=1526 max=1572 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-346
+PA1 avg=1552 min=1521 max=1575 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-254
+PA1 avg=1555 min=1533 max=1568 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-135
+PA1 avg=1555 min=1534 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-108
+PA1 avg=1553 min=1530 max=1570 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-204
+PA1 avg=1555 min=1533 max=1582 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-129
+PA1 avg=1550 min=1529 max=1574 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-311
+PA1 avg=1555 min=1530 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-128
+PA1 avg=1550 min=1532 max=1577 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-334
+PA1 avg=1556 min=1531 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-89
+PA1 avg=1554 min=1532 max=1612 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-156
+PA1 avg=1550 min=1522 max=1564 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-337
+PA1 avg=1548 min=1533 max=1572 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-404
+PA1 avg=1556 min=1538 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-72
+PA1 avg=1548 min=1526 max=1573 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-394
+PA1 avg=1551 min=1525 max=1573 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-282
+PA1 avg=1549 min=1526 max=1581 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-354
+PA1 avg=1550 min=1516 max=1572 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-344
+PA1 avg=1552 min=1532 max=1578 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-260
+PA1 avg=1549 min=1521 max=1568 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-385
+PA1 avg=1550 min=1528 max=1574 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-331
+PA1 avg=1553 min=1532 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-195
+PA1 avg=1551 min=1520 max=1577 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-282
+PA1 avg=1555 min=1532 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-124
+PA1 avg=1552 min=1536 max=1572 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-238
+PA1 avg=1549 min=1526 max=1580 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-353
+PA1 avg=1548 min=1522 max=1572 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-404
+PA1 avg=1553 min=1530 max=1578 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-191
+PA1 avg=1548 min=1527 max=1571 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-396
+PA1 avg=1550 min=1530 max=1573 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-318
+PA1 avg=1553 min=1534 max=1582 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-214
+PA1 avg=1553 min=1528 max=1580 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-202
+PA1 avg=1552 min=1529 max=1576 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-256
+PA1 avg=1555 min=1536 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-94
+PA1 avg=1551 min=1517 max=1579 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-274
+PA1 avg=1551 min=1536 max=1578 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-272
+PA1 avg=1550 min=1530 max=1580 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-313
+PA1 avg=1557 min=1536 max=1573 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-45
+PA1 avg=1551 min=1528 max=1579 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-294
+PA1 avg=1556 min=1528 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-93
+PA1 avg=1553 min=1517 max=1580 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-187
+PA1 avg=1554 min=1536 max=1573 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-172
+PA1 avg=1553 min=1528 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-192
+PA1 avg=1555 min=1532 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-118
+PA1 avg=1554 min=1526 max=1585 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-163
+PA1 avg=1553 min=1536 max=1572 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-206
+PA1 avg=1553 min=1533 max=1572 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-222
+PA1 avg=1553 min=1536 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-180
+PA1 avg=1550 min=1526 max=1571 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-337
+PA1 avg=1552 min=1529 max=1576 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-260
+PA1 avg=1552 min=1533 max=1570 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-255
+PA1 avg=1553 min=1523 max=1577 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-203
+PA1 avg=1550 min=1528 max=1572 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-341
+PA1 avg=1548 min=1517 max=1572 mV=1247 n=32 err=0 safe=1 fault=5
+CURRENT mA=-414
+PA1 avg=1549 min=1526 max=1572 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-381
+PA1 avg=1554 min=1538 max=1577 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-151
+PA1 avg=1552 min=1528 max=1568 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-244
+PA1 avg=1556 min=1538 max=1572 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-76
+PA1 avg=1553 min=1530 max=1573 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-207
+PA1 avg=1552 min=1526 max=1576 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-246
+PA1 avg=1554 min=1536 max=1574 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-144
+PA1 avg=1548 min=1520 max=1566 mV=1247 n=32 err=0 safe=1 fault=5
+CURRENT mA=-416
+PA1 avg=1550 min=1530 max=1570 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-335
+PA1 avg=1551 min=1528 max=1579 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-279
+PA1 avg=1555 min=1524 max=1572 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-122
+PA1 avg=1550 min=1528 max=1569 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-311
+PA1 avg=1555 min=1533 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-105
+PA1 avg=1553 min=1531 max=1575 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-212
+PA1 avg=1549 min=1524 max=1584 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-364
+PA1 avg=1555 min=1538 max=1582 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-94
+PA1 avg=1550 min=1524 max=1570 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-329
+PA1 avg=1555 min=1530 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-121
+PA1 avg=1555 min=1536 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-116
+PA1 avg=1551 min=1528 max=1569 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-287
+PA1 avg=1551 min=1528 max=1569 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-293
+PA1 avg=1551 min=1526 max=1579 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-293
+PA1 avg=1553 min=1530 max=1576 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-214
+PA1 avg=1552 min=1536 max=1575 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-263
+PA1 avg=1550 min=1529 max=1576 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-321
+PA1 avg=1553 min=1528 max=1578 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-184
+PA1 avg=1553 min=1536 max=1569 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-181
+PA1 avg=1554 min=1536 max=1584 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-161
+PA1 avg=1552 min=1536 max=1576 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-258
+PA1 avg=1555 min=1536 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-97
+PA1 avg=1553 min=1528 max=1573 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-212
+PA1 avg=1556 min=1540 max=1592 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-70
+PA1 avg=1553 min=1532 max=1580 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-185
+PA1 avg=1553 min=1536 max=1575 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-200
+PA1 avg=1553 min=1536 max=1582 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-189
+PA1 avg=1553 min=1531 max=1579 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-211
+PA1 avg=1552 min=1536 max=1569 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-264
+PA1 avg=1551 min=1526 max=1579 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-285
+PA1 avg=1557 min=1530 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1554 min=1536 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-139
+PA1 avg=1551 min=1526 max=1568 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-267
+PA1 avg=1549 min=1536 max=1585 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-372
+PA1 avg=1552 min=1528 max=1573 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-244
+PA1 avg=1553 min=1528 max=1584 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-197
+PA1 avg=1550 min=1525 max=1568 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-325
+PA1 avg=1553 min=1528 max=1565 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-219
+PA1 avg=1556 min=1533 max=1586 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-72
+PA1 avg=1549 min=1526 max=1580 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-356
+PA1 avg=1554 min=1517 max=1581 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-171
+PA1 avg=1548 min=1514 max=1568 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-397
+PA1 avg=1552 min=1536 max=1568 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-242
+PA1 avg=1552 min=1530 max=1574 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-227
+PA1 avg=1551 min=1532 max=1570 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-282
+PA1 avg=1551 min=1524 max=1570 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-268
+PA1 avg=1552 min=1528 max=1570 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-251
+PA1 avg=1551 min=1532 max=1568 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-270
+PA1 avg=1555 min=1537 max=1576 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-128
+PA1 avg=1549 min=1526 max=1580 mV=1248 n=32 err=0 safe=1 fault=5
+CURRENT mA=-365
+PA1 avg=1552 min=1525 max=1570 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-258
+PA1 avg=1553 min=1533 max=1579 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-222
+PA1 avg=1552 min=1526 max=1584 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-235
+PA1 avg=1552 min=1530 max=1572 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-259
+PA1 avg=1548 min=1518 max=1577 mV=1247 n=32 err=0 safe=1 fault=5
+CURRENT mA=-413
+PA1 avg=1550 min=1528 max=1576 mV=1249 n=32 err=0 safe=1 fault=5
+CURRENT mA=-314
+PA1 avg=1552 min=1526 max=1572 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-254
+PA1 avg=1555 min=1530 max=1578 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-102
+PA1 avg=1551 min=1532 max=1569 mV=1250 n=32 err=0 safe=1 fault=5
+CURRENT mA=-299
+PA1 avg=1554 min=1536 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-165
+PA1 avg=1552 min=1536 max=1580 mV=1251 n=32 err=0 safe=1 fault=5
+CURRENT mA=-236
+PA1 avg=1554 min=1525 max=1584 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-168
+PA1 avg=1558 min=1529 max=1582 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+7
+PA1 avg=1561 min=1540 max=1586 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+127
+PA1 avg=1558 min=1536 max=1581 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+15
+PA1 avg=1554 min=1532 max=1580 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-168
+PA1 avg=1558 min=1540 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+10
+PA1 avg=1559 min=1536 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+53
+PA1 avg=1557 min=1536 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-38
+PA1 avg=1559 min=1536 max=1580 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+37
+PA1 avg=1556 min=1533 max=1576 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-76
+PA1 avg=1556 min=1529 max=1574 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-88
+PA1 avg=1558 min=1536 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+33
+PA1 avg=1556 min=1529 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-93
+PA1 avg=1558 min=1538 max=1580 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+1
+PA1 avg=1560 min=1540 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+93
+PA1 avg=1557 min=1536 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-31
+PA1 avg=1560 min=1538 max=1577 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+116
+PA1 avg=1557 min=1538 max=1579 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-11
+PA1 avg=1554 min=1524 max=1578 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-163
+PA1 avg=1553 min=1536 max=1575 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-199
+PA1 avg=1555 min=1536 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-133
+PA1 avg=1557 min=1540 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-34
+PA1 avg=1562 min=1532 max=1584 mV=1259 n=32 err=0 safe=1 fault=5
+CURRENT mA=+172
+PA1 avg=1554 min=1541 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-139
+PA1 avg=1555 min=1529 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-114
+PA1 avg=1560 min=1542 max=1580 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+108
+PA1 avg=1558 min=1541 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+34
+PA1 avg=1558 min=1536 max=1574 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+11
+PA1 avg=1559 min=1541 max=1588 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+54
+PA1 avg=1562 min=1542 max=1596 mV=1259 n=32 err=0 safe=1 fault=5
+CURRENT mA=+172
+PA1 avg=1557 min=1525 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1558 min=1533 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+24
+PA1 avg=1560 min=1538 max=1581 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+100
+PA1 avg=1560 min=1540 max=1590 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+120
+PA1 avg=1557 min=1530 max=1582 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1557 min=1524 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-43
+PA1 avg=1554 min=1530 max=1580 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-167
+PA1 avg=1559 min=1530 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+44
+PA1 avg=1558 min=1531 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+21
+PA1 avg=1560 min=1536 max=1581 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+117
+PA1 avg=1556 min=1528 max=1585 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-74
+PA1 avg=1555 min=1536 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-124
+PA1 avg=1557 min=1536 max=1588 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-17
+PA1 avg=1554 min=1532 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-144
+PA1 avg=1558 min=1538 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+15
+PA1 avg=1556 min=1536 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-84
+PA1 avg=1559 min=1536 max=1581 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+70
+PA1 avg=1557 min=1536 max=1577 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-18
+PA1 avg=1559 min=1529 max=1594 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+50
+PA1 avg=1556 min=1532 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-54
+PA1 avg=1559 min=1532 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+76
+PA1 avg=1561 min=1537 max=1584 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+156
+PA1 avg=1559 min=1536 max=1588 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+68
+PA1 avg=1559 min=1536 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+61
+PA1 avg=1561 min=1528 max=1589 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+128
+PA1 avg=1559 min=1526 max=1592 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+42
+PA1 avg=1557 min=1538 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-31
+PA1 avg=1557 min=1528 max=1585 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-39
+PA1 avg=1560 min=1540 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+117
+PA1 avg=1556 min=1536 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-54
+PA1 avg=1556 min=1528 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-64
+PA1 avg=1557 min=1532 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-46
+PA1 avg=1558 min=1540 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-1
+PA1 avg=1556 min=1532 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-74
+PA1 avg=1561 min=1540 max=1580 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+147
+PA1 avg=1558 min=1536 max=1586 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+1
+PA1 avg=1560 min=1525 max=1586 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+117
+PA1 avg=1558 min=1540 max=1581 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+21
+PA1 avg=1559 min=1535 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+38
+PA1 avg=1558 min=1540 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+13
+PA1 avg=1555 min=1536 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-131
+PA1 avg=1559 min=1540 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+58
+PA1 avg=1558 min=1536 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-5
+PA1 avg=1556 min=1517 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-51
+PA1 avg=1558 min=1536 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+29
+PA1 avg=1556 min=1528 max=1576 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-84
+PA1 avg=1558 min=1538 max=1576 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-5
+PA1 avg=1557 min=1532 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-15
+PA1 avg=1558 min=1526 max=1577 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+20
+PA1 avg=1559 min=1534 max=1592 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+77
+PA1 avg=1557 min=1538 max=1582 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-42
+PA1 avg=1557 min=1538 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-35
+PA1 avg=1557 min=1532 max=1584 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-15
+PA1 avg=1561 min=1542 max=1586 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+147
+PA1 avg=1554 min=1536 max=1580 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-143
+PA1 avg=1560 min=1540 max=1584 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+99
+PA1 avg=1558 min=1531 max=1586 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-7
+PA1 avg=1560 min=1536 max=1592 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+85
+PA1 avg=1555 min=1522 max=1580 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-128
+PA1 avg=1559 min=1536 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+42
+PA1 avg=1553 min=1530 max=1577 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-199
+PA1 avg=1554 min=1532 max=1572 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-171
+PA1 avg=1558 min=1532 max=1585 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+28
+PA1 avg=1558 min=1533 max=1578 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+24
+PA1 avg=1560 min=1538 max=1585 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+101
+PA1 avg=1558 min=1540 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+33
+PA1 avg=1557 min=1541 max=1578 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-45
+PA1 avg=1560 min=1533 max=1600 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+99
+PA1 avg=1561 min=1548 max=1579 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+128
+PA1 avg=1556 min=1537 max=1586 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-70
+PA1 avg=1559 min=1540 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+56
+PA1 avg=1553 min=1536 max=1588 mV=1252 n=32 err=0 safe=1 fault=5
+CURRENT mA=-192
+PA1 avg=1556 min=1536 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-68
+PA1 avg=1558 min=1528 max=1581 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-3
+PA1 avg=1556 min=1531 max=1574 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-64
+PA1 avg=1559 min=1540 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+65
+PA1 avg=1556 min=1528 max=1586 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-92
+PA1 avg=1561 min=1538 max=1582 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+136
+PA1 avg=1561 min=1532 max=1582 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+148
+PA1 avg=1559 min=1541 max=1578 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+70
+PA1 avg=1559 min=1536 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+38
+PA1 avg=1558 min=1533 max=1580 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-6
+PA1 avg=1558 min=1516 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+29
+PA1 avg=1555 min=1522 max=1584 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-97
+PA1 avg=1555 min=1524 max=1577 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-136
+PA1 avg=1557 min=1540 max=1577 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-47
+PA1 avg=1555 min=1536 max=1586 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-108
+PA1 avg=1559 min=1536 max=1586 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+41
+PA1 avg=1559 min=1538 max=1588 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+44
+PA1 avg=1560 min=1544 max=1586 mV=1257 n=32 err=0 safe=1 fault=5
+CURRENT mA=+84
+PA1 avg=1560 min=1536 max=1587 mV=1258 n=32 err=0 safe=1 fault=5
+CURRENT mA=+120
+PA1 avg=1558 min=1538 max=1594 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-1
+PA1 avg=1558 min=1536 max=1576 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+24
+PA1 avg=1555 min=1532 max=1574 mV=1253 n=32 err=0 safe=1 fault=5
+CURRENT mA=-132
+PA1 avg=1562 min=1536 max=1596 mV=1259 n=32 err=0 safe=1 fault=5
+CURRENT mA=+183
+PA1 avg=1556 min=1536 max=1584 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-56
+PA1 avg=1559 min=1533 max=1584 mV=1256 n=32 err=0 safe=1 fault=5
+CURRENT mA=+49
+PA1 avg=1557 min=1540 max=1588 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=-25
+PA1 avg=1558 min=1540 max=1578 mV=1255 n=32 err=0 safe=1 fault=5
+CURRENT mA=+2
+PA1 avg=1556 min=1532 max=1580 mV=1254 n=32 err=0 safe=1 fault=5
+CURRENT mA=-51

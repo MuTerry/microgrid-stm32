@@ -45,6 +45,10 @@
 #define ADC_RAW_TEST_MODE 1U
 #endif
 #define ADC_TEST_VREF_MV  3300U
+#define PA1_ZERO_GROUPS   20U
+#define PA1_ZERO_TIMEOUT_MS 7500U
+#define PA1_COUNTS_PER_AMP_X100 2333
+#define PA1_CURRENT_AVG_GROUPS 8U
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -79,6 +83,16 @@ volatile float vbus_v = 24.0f;
 volatile float ibus_a = 0.0f;
 static float pi_integral = 0.0f;
 static uint32_t last_pi_tick = 0;
+static uint32_t pa1_zero_started_at;
+static uint32_t pa1_zero_group_count;
+static uint32_t pa1_zero_sample_sum;
+static uint32_t pa1_zero_counts_x1000;
+static uint8_t pa1_zero_active;
+static uint8_t pa1_zero_valid;
+static int32_t pa1_current_history[PA1_CURRENT_AVG_GROUPS];
+static int32_t pa1_current_total_ma;
+static uint32_t pa1_current_count;
+static uint32_t pa1_current_next;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,6 +108,110 @@ static void MX_TIM3_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+static void Reset_PA1_Current_Average(void)
+{
+  pa1_current_total_ma = 0;
+  pa1_current_count = 0U;
+  pa1_current_next = 0U;
+}
+
+static void Report_PA1_Current_Average(int32_t current_ma)
+{
+  if (pa1_current_count == PA1_CURRENT_AVG_GROUPS)
+  {
+    pa1_current_total_ma -= pa1_current_history[pa1_current_next];
+  }
+  else
+  {
+    pa1_current_count++;
+  }
+  pa1_current_history[pa1_current_next] = current_ma;
+  pa1_current_total_ma += current_ma;
+  pa1_current_next = (pa1_current_next + 1U) % PA1_CURRENT_AVG_GROUPS;
+
+  if (pa1_current_count == PA1_CURRENT_AVG_GROUPS)
+  {
+    const int32_t groups = (int32_t)PA1_CURRENT_AVG_GROUPS;
+    const int32_t rounding = (pa1_current_total_ma < 0) ? -(groups / 2) : groups / 2;
+    int32_t average_ma = (pa1_current_total_ma + rounding) / groups;
+    snprintf(msg, sizeof(msg), "CURRENT_AVG mA=%+ld n=%u\r\n",
+             (long)average_ma, PA1_CURRENT_AVG_GROUPS);
+    HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+  }
+}
+
+static void Poll_PA1_Zero_Command(void)
+{
+  uint32_t now = HAL_GetTick();
+  if ((pa1_zero_active != 0U) && (now - pa1_zero_started_at >= PA1_ZERO_TIMEOUT_MS))
+  {
+    pa1_zero_active = 0U;
+    snprintf(msg, sizeof(msg), "ZERO TIMEOUT groups=%lu/%u send z to retry\r\n",
+             (unsigned long)pa1_zero_group_count, PA1_ZERO_GROUPS);
+    HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+  }
+
+  /* Poll without waiting. Reading SR then DR also clears receive errors.
+   * An overrun means a later byte was lost, so keep the buffered command. */
+  const uint32_t receive_errors = UART_FLAG_PE | UART_FLAG_FE | UART_FLAG_NE;
+  uint32_t status = huart2.Instance->SR;
+  if ((status & (UART_FLAG_RXNE | UART_FLAG_ORE | receive_errors)) == 0U)
+  {
+    return;
+  }
+  uint8_t command = (uint8_t)huart2.Instance->DR;
+  if (((status & UART_FLAG_RXNE) == 0U) || ((status & receive_errors) != 0U) ||
+      ((command != 'z') && (command != 'Z')) || (pa1_zero_active != 0U))
+  {
+    return;
+  }
+
+  pa1_zero_valid = 0U;
+  pa1_zero_active = 1U;
+  pa1_zero_started_at = now;
+  pa1_zero_group_count = 0U;
+  pa1_zero_sample_sum = 0U;
+  Reset_PA1_Current_Average();
+  snprintf(msg, sizeof(msg), "ZERO START groups=%u keep load OFF\r\n", PA1_ZERO_GROUPS);
+  HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+}
+
+/* Called only for complete, error-free report groups away from the ADC rails. */
+static void Update_PA1_Trial_Current(uint32_t sum)
+{
+  if (pa1_zero_active != 0U)
+  {
+    pa1_zero_sample_sum += sum;
+    pa1_zero_group_count++;
+    if (pa1_zero_group_count == PA1_ZERO_GROUPS)
+    {
+      const uint32_t samples = PA1_ZERO_GROUPS * ADC_AVG_SAMPLES;
+      pa1_zero_counts_x1000 = (pa1_zero_sample_sum * 1000U + samples / 2U) / samples;
+      pa1_zero_active = 0U;
+      pa1_zero_valid = 1U;
+      snprintf(msg, sizeof(msg), "ZERO OK avg=%lu.%03lu groups=%u\r\n",
+               (unsigned long)(pa1_zero_counts_x1000 / 1000U),
+               (unsigned long)(pa1_zero_counts_x1000 % 1000U), PA1_ZERO_GROUPS);
+      HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+    }
+    return;
+  }
+
+  if (pa1_zero_valid != 0U)
+  {
+    int32_t counts_x1000 = (int32_t)((sum * 1000U + ADC_AVG_SAMPLES / 2U) / ADC_AVG_SAMPLES);
+    int32_t delta_x1000 = counts_x1000 - (int32_t)pa1_zero_counts_x1000;
+    /* mA = 1000 * delta_counts / 23.33. Round signed values symmetrically. */
+    int32_t numerator = delta_x1000 * 100;
+    const int32_t half_divisor = PA1_COUNTS_PER_AMP_X100 / 2;
+    int32_t current_ma = (numerator + (numerator < 0 ? -half_divisor : half_divisor)) /
+                         PA1_COUNTS_PER_AMP_X100;
+    snprintf(msg, sizeof(msg), "CURRENT mA=%+ld\r\n", (long)current_ma);
+    HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+    Report_PA1_Current_Average(current_ma);
+  }
+}
 
 static void Report_PA1_Raw(void)
 {
@@ -149,6 +267,15 @@ static void Report_PA1_Raw(void)
              (unsigned int)safe_mode, (unsigned int)fault_code);
   }
   HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+  if ((count == ADC_AVG_SAMPLES) && (errors == 0U) && (minimum > 0U) && (maximum < 4095U))
+  {
+    Update_PA1_Trial_Current(sum);
+  }
+  else
+  {
+    /* Refill with consecutive valid groups after a gap in the current output. */
+    Reset_PA1_Current_Average();
+  }
 }
 
 static void Read_Adc_Feedback(void)
@@ -333,6 +460,8 @@ int main(void)
   if (ADC_RAW_TEST_MODE != 0U)
   {
     strcpy(msg, "ADC RAW TEST: PA1 only, Vref=3300mV assumed, PWM=OFF, 0x200=OFF\r\n");
+    HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+    strcpy(msg, "ADC CURRENT TRIAL: with load OFF, send z to set zero\r\n");
     HAL_UART_Transmit(&huart2, (uint8_t *)msg, (uint16_t)strlen(msg), 100U);
   }
   /* USER CODE END 2 */
@@ -525,6 +654,10 @@ int main(void)
         if (ADC_RAW_TEST_MODE == 0U)
         {
           Update_Single_Channel_PI();
+        }
+        else
+        {
+          Poll_PA1_Zero_Command();
         }
 
 	 	// 0x200发送代码
